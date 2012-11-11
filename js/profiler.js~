@@ -25,8 +25,6 @@ var profiler = new (function() {
 	var getData = function(options, callback) {
 		var url = getUrl(options)
 		callback = callback || function(){}
-		callback(dummyProfile, translate(dummyProfile))
-		return;
 		$.get(url, function(data) {
 			if (data.Code != 'success')
 				callback(dummyProfile, translate(dummyProfile))

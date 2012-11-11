@@ -1,0 +1,118 @@
+.highlight-color { color: rgb(0,176,240); }
+.hr { border: none; border-bottom: 1px solid #EBEBEB; }
+.container { }
+
+.top-navbar-mock { background: rgb(20,20,20); width: 100%; color: white; text-transform: lowercase; height: 48px; font-family: Arial; }
+
+.page-header-mock { font-size: 25pt; padding-top: 10px; color: white; }
+
+.left-navbar-mock { width: 16%; position: absolute; top: 48px; bottom: 0px; background: rgb(200,200,200); }
+
+.left-navbar-mock a { display: block; padding-top: 20px; padding-bottom: 20px; font-size: large; text-transform: lowercase; color: Gray; width: 90%; padding-left: 10%; position: relative; text-decoration: none; }
+
+.left-navbar-mock a:hover { background: rgb(180,180,180); }
+
+.environment-toggle-mock { position: absolute; top: 48px; text-align: right; left: 16%; right: 0px; padding-top: 4px; padding-bottom: 4px; padding-right: 14px; z-index: 2; }
+
+.main-content-area { 
+	position: absolute;
+	left: 16%;
+	right: 0px;
+	bottom: 48px;
+	top: 48px;
+	background: white;
+	margin-top: 30px;
+	background-color: whiteSmoke;
+	margin-left: 2%;
+	padding-left: 20px;
+}
+
+.content-list-container { background: whitesmoke; width: 33%; position: absolute; margin-left: 0%; top: 1px; margin-bottom: 48px; z-index: 100; text-transform: lowercase; font-size: 14px; }
+
+.main-content-container { width: 67%; height: 100%; float: left; margin-left: 33%; }
+
+.bottom-footer-mock { position: fixed; bottom: 0px; height: 48px; background: rgb(0,176,240); font-size: large; color: White; width: 100%; margin-left: 16%; }
+
+.bottom-footer-content { width: 100%; margin-top: 20px; margin-left: 30px; font-size: 20px; }
+
+/* plugin css */
+
+html {
+	text-transform: lowercase !important;
+}
+
+.bar {
+	padding: 3px 0px;
+}
+
+.profile-container {
+	padding: 3px;
+	border: 1px solid transparent;
+	padding-bottom: 50px;
+}
+
+.chart-container {
+	width:58%;
+	display: inline-block;
+	float:left;
+	overflow: hidden;
+	z-index: 4;
+}
+
+.chart-container > table > tr > td {
+	text-align: right;
+}
+
+.details-container {
+	float: left;
+	width: 15%;
+	display: inline-block;
+}
+
+.top-details-label {
+	text-align: right !important;
+	border-width: 0px !important;
+	text-transform: lowercase;
+}
+
+.top-details-value {
+	padding-left: 10px;
+}
+
+.legend-container {
+	width: 25%;
+	font-size:10pt;
+	display:inline-block;
+	text-align: right;
+	float:left;
+	padding-right: 7px;
+	z-index: 5;
+	background: whitesmoke;
+}
+
+table, tr, td {
+	font-size:9pt;
+}
+
+.step-name {
+	text-decoration: none;
+	color: rgb(50,50,50);
+	text-align: right;
+}
+
+.step-name:hover {
+	color: rgb(0,176,240);
+}
+
+.text-wrapper {
+	height: 23px;
+	background: transparent;
+}
+
+.border-on-hover {
+	border: 1px solid transparent;
+}
+
+.border-on-hover:hover {
+	border: 1px solid gray;
+}
